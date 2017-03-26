@@ -1166,7 +1166,6 @@ body {
 .reveal .overlay .viewport {
   position: absolute;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   top: 40px;
@@ -1363,3 +1362,120 @@ body {
 
 .zoomed .reveal .roll span:after {
   visibility: hidden; }
+
+.reveal {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background-color: #2c3e50; }
+  .reveal section.has-light-background,
+  .reveal section {
+    color: white; }
+    .reveal section.has-light-background h1, .reveal section.has-light-background h2, .reveal section.has-light-background h3, .reveal section.has-light-background h4,
+    .reveal section h1,
+    .reveal section h2,
+    .reveal section h3,
+    .reveal section h4 {
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      font-weight: bold;
+      color: white; }
+    .reveal section.has-light-background p,
+    .reveal section p {
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+  .reveal .img-container {
+    font-size: 68px;
+    margin-bottom: 20px; }
+  .reveal .icon-small {
+    width: 150px;
+    margin-top: -10px;
+    vertical-align: middle; }
+  .reveal p, .reveal th, .reveal td, .reveal ol, .reveal ul, .reveal li {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2); }
+  .reveal ul, .reveal ol {
+    list-style: square;
+    font-size: 30px; }
+  .reveal section img {
+    background: transparent;
+    border: 0;
+    box-shadow: none; }
+  .reveal blockquote {
+    display: block;
+    position: relative;
+    width: 70%;
+    margin: 20px auto;
+    padding: 5px;
+    font-style: italic;
+    background: transparent;
+    box-shadow: none; }
+  .reveal table td, .reveal table th {
+    border: 0;
+    background: rgba(0, 0, 0, 0.15); }
+  .reveal table th {
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0.4); }
+  .reveal a {
+    color: inherit;
+    text-decoration: underline; }
+  .reveal .dark-shadow {
+    text-shadow: 5px 0 10px black; }
+  .reveal .left {
+    text-align: left; }
+  .reveal .me {
+    margin: 30px 0 0 130px;
+    font-size: 1.2em;
+    line-height: 2em;
+    list-style-type: none; }
+    .reveal .me li {
+      padding: 0 0 0 70px; }
+  .reveal strong {
+    font-weight: 900; }
+  .reveal .native-logos img {
+    width: 100px;
+    margin: 40px 20px 0 20px; }
+  .reveal .stack {
+    width: 330px;
+    margin: 0 350px 0 0;
+    list-style-type: none; }
+    .reveal .stack li {
+      margin: 8px;
+      padding: 5px 6px 7px 12px; }
+  .reveal .col {
+    float: left;
+    width: 50%; }
+  .reveal .col.preview {
+    width: 35%; }
+  .reveal .col.code {
+    width: 65%;
+    text-align: left; }
+  .reveal .col.code > * {
+    margin-left: 40px; }
+  .reveal .demo-frame {
+    background: url("../img/demo-bg.png") no-repeat;
+    background-size: 340px;
+    height: 700px;
+    margin-top: 0;
+    margin-left: -15px;
+    min-width: 345px; }
+  .reveal .demo-frame iframe {
+    position: absolute;
+    left: 7px;
+    top: 98px;
+    width: 296px;
+    height: 527px; }
+  .reveal .stack {
+    width: 100%; }
+
+.reveal section img.logo {
+  border: 0px;
+  box-shadow: none;
+  background: none; }
+
+.reveal section img.servicenow-logo {
+  border: 0px;
+  box-shadow: none;
+  background: none;
+  margin: 0;
+  padding: 0;
+  width: 600px; }
+
+.emphasis * strong {
+  color: #16a085; }
